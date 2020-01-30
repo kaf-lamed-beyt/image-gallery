@@ -7,25 +7,70 @@
     <title>Gallery</title>
     <link rel="stylesheet" href="./assets/styles/style.css">
     <script src="https://kit.fontawesome.com/d9e33f69d6.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container flexbox">
-        <div class="gallery-header flex-item" id="head">
-            <div class="gallery-head-content flex-item" id="head-info">
-                <ul>
-                    <li class="list-item">
-                        <h2>Gallery</h2>
-                    </li>
-                    <li class="list-item">
-                        <p><i class="fab "></i>User</p>
-                    </li>
-                </ul>
+    <header class="mt-2">
+        <div class="head-container desc ml-2 mr-3">
+            <ul>
+                <li class="list-item first">
+                    <h2>Gallery</h2>
+                </li>
+                <li class="list-item second">
+                    <p><i class="fas fa-user"></i>Seven</p>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="container"> 
+        <!-- Gallery's flex container -->
+        <div class="gallery-grid-container flex-item mt-4 ml-3" id="content">
+            <div class="gallery-picture-grid picture-container w-20" id="picture-grid">
+                <div class="whole-pic-grid h-50"></div>
+                <div class="half-pic-grid equal-dims mt-4">
+                    <div class="two-pics-grid equal w-10 h-25 set"></div>
+                    <div class="two-pics-grid equal ml-2 w-10 h-25"></div>
+                </div>
+                <div class="whole-rectangle-pic h-25 w-20 mt-4"></div>
+            </div>
+            <div class="wide-gallery-starter-grid vid-container w-40 ml-3" id="vid">
+                <div class="lg-vid-grid h-65"></div>
+                <div class="md-sm-vid-grid h-35 mt-4">
+                    <div class="sm-vid-grid w-15"></div>
+                    <div class="md-vid-grid w-25 ml-3"></div>
+                </div>
+            </div>
+            <div class="square-boxes-grid folder-container ml-2 w-20" id="folders">
+                <div class="two-in-row-folder-grid h-35 mb-3">
+                    <div class="two-in-row w-12"></div>
+                    <div class="two-in-row w-8 ml-3"></div>
+                </div>
+                <div class="four-boxes section-folder h-65 mt-3">
+                    <div class="equal-box-grid mb-3 w-5"></div>
+                    <div class="equal-box-grid ml-3 mb-3 w-5"></div>
+                    <div class="equal-box-grid mt-3 w-5"></div>
+                    <div class="equal-box-grid ml-3 mt-3 w-5"></div>
+                </div>
+            </div>
+            <div class="wide-gallery-starter-grid vid-container w-40 ml-2" id="vid">
+                <div class="lg-vid-grid h-65"></div>
+                <div class="md-sm-vid-grid h-35 mt-4">
+                    <div class="sm-vid-grid w-15"></div>
+                    <div class="md-vid-grid w-25 ml-3"></div>
+                </div>
+            </div>
+            <div class="gallery-picture-grid picture-container w-20 ml-2 mt-2" id="picture-grid">
+                <div class="whole-pic-grid h-50"></div>
+                <div class="half-pic-grid equal-dims mt-4">
+                    <div class="two-pics-grid equal w-10 h-25 set"></div>
+                    <div class="two-pics-grid equal ml-2 w-10 h-25"></div>
+                </div>
+                <div class="whole-rectangle-pic h-25 w-20 mt-4"></div>
             </div>
         </div>
-        <div class="gallery-grid flex-item"></div>
     </div>
     <footer>
-        <p>created with <i class="fab fa-heart"></i> and <i class="fab fa-laptop-code"></i> by <a href="https://Caleb335.github.io">Seven</a></p>
+        <p>created with <i class="fas fa-heart"></i> and <i class="fas fa-laptop-code"></i> by <a href="https://twitter.com/calebolojo">Seven</a></p>
     </footer>
 </body>
 </html>
