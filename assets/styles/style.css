@@ -14,8 +14,14 @@ body {
     overflow-x: scroll;
     background-color: #ff4757;
 }
-p h2 a {
-    color: #273c75;
+.text-white {
+    color: #fff;
+}
+.text-medium {
+    font-size: 20px;
+}
+.fa-user {
+    color: #fff;
 }
 header ul li {
     list-style-type: none;
@@ -188,4 +194,3 @@ footer a:hover {
 footer a {
     color: #000;
 }
-   
