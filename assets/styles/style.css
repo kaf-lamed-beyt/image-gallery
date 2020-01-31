@@ -44,29 +44,7 @@ header ul li {
     font-size: 20px;
     margin-top: -2%;
 }
-.mt-4 {
-    margin-top: 3%;
-}
-.mr-3 {
-    margin-right: 5%;
-}
-/* Gallery grid */
-.gallery-grid-container {
-    display: inline-flex;
-}
-.mt-5 {
-    margin-top: 7%;
-}
-.ml-13{
-    margin-left: 13%;
-}
-/* third grid starts here */
-.two-in-row-folder-grid {
-    display: flex;
-}
-.two-in-row {
-    background-color: rgb(25, 104, 223);
-}
+/* re-usable classes starts here */
 .w-12 {
     width: 120px;
 }
@@ -94,30 +72,13 @@ header ul li {
 .w-5 {
     width: 194px;
 }
-.equal-box-grid {
-    background-color: indigo;
+.mt-4 {
+    margin-top: 3%;
 }
-.four-boxes{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+.mr-3 {
+    margin-right: 5%;
 }
-.h-65 {
-    height: 45%;
-}
-/* third grid section ends */
 
-/* second-grid-section starts */
-.vid-container {
-    width: 100%;
-}
-.lg-vid-grid {
-    width: 500px;
-    background-color: rgb(25, 211, 18);
-}
-.ml-2 {
-    margin-left: 2%;
-}
 .h-35 {
     height: 37%;
 }
@@ -132,16 +93,61 @@ header ul li {
     width: 290px;
     background-color: rgb(15, 196, 228);
 }
+.mt-5 {
+    margin-top: 7%;
+}
+.ml-13{
+    margin-left: 13%;
+}
+.h-65 {
+    height: 45%;
+}
+.ml-2 {
+    margin-left: 2%;
+}
+.h-50 {
+    height: 40%;
+    background-color: rgb(14, 207, 143);
+}
+/* re-usable classes ends here */
+
+/* Gallery grid */
+.gallery-grid-container {
+    display: inline-flex;
+}
+/* Gallery grid ends here */
+
+/* third grid section starts here */
+.two-in-row-folder-grid {
+    display: flex;
+}
+.two-in-row {
+    background-color: rgb(25, 104, 223);
+}
+.equal-box-grid {
+    background-color: indigo;
+}
+.four-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+/* third grid section ends */
+
+/* second-grid-section starts */
+.vid-container {
+    width: 100%;
+}
+.lg-vid-grid {
+    width: 500px;
+    background-color: rgb(25, 211, 18);
+}
 /* second-grid-section ends */
 
 /* first grid section starts */
 .gallery.picture-grid {
     display: flex;
     width: 100%;
-}
-.h-50 {
-    height: 40%;
-    background-color: rgb(14, 207, 143);
 }
 .equal-dims {
     display: flex;
