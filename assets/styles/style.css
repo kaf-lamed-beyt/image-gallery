@@ -14,12 +14,6 @@ body {
     overflow-x: scroll;
     background-color: #ff4757;
 }
-.text-white {
-    color: #fff;
-}
-.text-medium {
-    font-size: 20px;
-}
 .fa-user {
     color: #fff;
 }
@@ -45,6 +39,12 @@ header ul li {
     margin-top: -2%;
 }
 /* re-usable classes starts here */
+.text-white {
+    color: #fff;
+}
+.text-medium {
+    font-size: 20px;
+}
 .w-12 {
     width: 120px;
 }
