@@ -200,3 +200,12 @@ footer a:hover {
 footer a {
     color: #000;
 }
+@media screen and (max-width: 600px) {
+    .gallery-grid-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .vid-container {
+        margin-top: 4%;
+    }
+}
