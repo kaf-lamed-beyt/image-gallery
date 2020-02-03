@@ -201,11 +201,38 @@ footer a {
     color: #000;
 }
 @media screen and (max-width: 600px) {
+    header {
+        width: 100%;
+        margin-top: 8%;
+    }
+    .head-container h1 {
+        font-size: 18px;
+    }
+    .container {
+        display: flex;
+        width: 100%;
+    }
     .gallery-grid-container {
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 4%;
+        margin-top: 13%;
     }
-    .vid-container {
-        margin-top: 4%;
+    .wide-gallery-starter-grid {
+        margin-top: 15%;
+    }
+    /* reusables */
+        .w-20 {
+            width: 40%;
+        }
+    /* reusables ends */
+    footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 50%;
+    }
+    footer p {
+        font-size: 12px;
     }
 }
